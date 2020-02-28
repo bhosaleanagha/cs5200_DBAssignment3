@@ -35,6 +35,7 @@ on delete cascade on update cascade
 
 CREATE TABLE user(
 user_agreement BOOLEAN DEFAULT false,
+approved_user BOOLEAN default false,
 id INT UNIQUE,
 CONSTRAINT user_person_generalization
 PRIMARY KEY(id),
