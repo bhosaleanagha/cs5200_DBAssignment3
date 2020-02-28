@@ -8,4 +8,4 @@ select id,concat(firstname,' ',lastname) from (select b.postedby,count(b.postedb
 end
 //
 
-call endorsedUsersForWeek('2020-02-15','2020-02-19');
+call endorsedUsersForWeek('2020-02-18','2020-02-25');
